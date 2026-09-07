@@ -1,0 +1,7 @@
+# Studio Nilda Santos — robots.txt
+# IMPORTANTE: troque SEU-DOMINIO.com.br pelo domínio real assim que o site for publicado.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.SEU-DOMINIO.com.br/sitemap.xml

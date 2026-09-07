@@ -1,0 +1,14 @@
+{
+  "name": "Studio Nilda Santos",
+  "short_name": "Nilda Santos",
+  "description": "Massoterapia e estética facial e corporal em Salvador, BA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF5EF",
+  "theme_color": "#6E2A34",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
