@@ -62,7 +62,10 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  /* .gallery-track-inner fica de fora de propósito: é um giro lateral lento
+     e contínuo (sem fade/parallax brusco), então mantemos o carrossel da
+     galeria girando mesmo com "reduzir movimento" ativado no aparelho. */
+  *:not(.gallery-track-inner) { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
 }
 
 /* ---------- Focus / a11y ---------- */
