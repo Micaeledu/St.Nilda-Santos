@@ -110,13 +110,6 @@
       cookieBanner.classList.remove("is-visible");
     });
   }
-  var cookiePolicyLink = document.getElementById("cookiePolicyLink");
-  if (cookiePolicyLink) {
-    cookiePolicyLink.addEventListener("click", function (e) {
-      e.preventDefault();
-    });
-  }
-
   /* ---------------------------------------------------------------------
      Animações (GSAP + ScrollTrigger) — com checagem de disponibilidade
      para o site continuar funcional caso o CDN falhe.

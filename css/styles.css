@@ -693,6 +693,8 @@ h2.section-title {
   gap: 10px;
   justify-content: space-between;
 }
+.footer-bottom a { color: var(--ink-soft); text-decoration: underline; text-underline-offset: 2px; }
+.footer-bottom a:hover { color: var(--wine); }
 
 /* =========================================================================
    Floating WhatsApp button
@@ -802,6 +804,45 @@ h2.section-title {
 .error-page h1 { font-family: var(--font-serif); font-size: clamp(1.6rem, 4vw, 2.2rem); }
 .error-page p { color: var(--ink-soft); max-width: 42ch; }
 .error-actions { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+
+/* =========================================================================
+   Páginas legais (política de privacidade, termos de uso)
+   ========================================================================= */
+.legal-header {
+  padding-block: 28px;
+  border-bottom: 1px solid var(--cream-line);
+}
+.legal-header .logo { color: var(--wine-dark); }
+.legal-main { padding-block: 56px 96px; }
+.legal-content { max-width: 720px; }
+.legal-content .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--wine);
+  margin-bottom: 28px;
+}
+.legal-content .back-link svg { width: 16px; height: 16px; }
+.legal-content h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.legal-content .updated-at { color: var(--ink-soft); font-size: 0.9rem; margin-bottom: 40px; }
+.legal-content h2 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+.legal-content p { color: var(--ink-soft); margin-bottom: 14px; }
+.legal-content ul { margin: 0 0 14px; padding-left: 1.3em; color: var(--ink-soft); }
+.legal-content li { margin-bottom: 8px; list-style: disc; }
+.legal-content a { color: var(--wine); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.legal-content strong { color: var(--ink); }
 
 /* ---------- Reveal utility (GSAP targets) ----------
    Fica visível por padrão (progressive enhancement). Só fica oculto
