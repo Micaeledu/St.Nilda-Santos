@@ -1,0 +1,9 @@
+{
+  "name": "studio-nilda-santos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Site institucional do Studio Nilda Santos — massoterapia e estética em Salvador, BA.",
+  "scripts": {
+    "dev": "npx --yes serve -l 3000 ."
+  }
+}
